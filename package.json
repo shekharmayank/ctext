@@ -1,0 +1,16 @@
+{
+  "name": "colord",
+  "version": "1.0.0",
+  "description": "Tiny package to log colorful texts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "colorful",
+    "text"
+  ],
+  "author": "mshekhar",
+  "license": "ISC",
+  "dependencies": {}
+}
