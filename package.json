@@ -1,11 +1,11 @@
 {
-  "name": "colord",
+  "name": "ctext",
   "version": "1.0.0",
   "description": "Tiny package to log colorful texts.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shekharmayank/colord"
+    "url": "https://github.com/shekharmayank/ctext"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
