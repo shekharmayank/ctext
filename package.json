@@ -1,6 +1,6 @@
 {
   "name": "ctext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny package to log colorful texts.",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/shekharmayank/ctext"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "colorful",
@@ -16,5 +16,8 @@
   ],
   "author": "mshekhar",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
 }
