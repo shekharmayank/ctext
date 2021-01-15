@@ -1,5 +1,7 @@
 # Colored Text in Console
 
+![Node.js Package](https://github.com/shekharmayank/ctext/workflows/Node.js%20Package/badge.svg)
+
 Small library (zero dependency) to display colored text in the console.
 
 ## Basic Usage
