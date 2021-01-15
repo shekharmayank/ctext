@@ -1,4 +1,3 @@
-const { bgColors } = require('./utils');
 var utils = require('./utils');
 
 class Ctext {
