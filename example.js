@@ -1,3 +1,8 @@
-var coloredtext = require('./index');
+var Ctext = require('./index');
+var utils = require('./utils');
 
-console.log(coloredtext.bgWhite(coloredtext.cyan('hello world')));
+let primary = new Ctext();
+let highlighted = new Ctext({ color: 'black', bgColor: 'yellow' });
+
+console.log(primary.text('Hello!'));
+console.log(highlighted.text('Hello!'));

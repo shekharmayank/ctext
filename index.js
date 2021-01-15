@@ -1,19 +1,20 @@
 var utils = require('./utils');
 
-function cyan(msg) {
-    return `${utils.colors.cyan}${msg}${utils.format.reset}`;
-};
+class Ctext {
+  constructor({ color, bgColor, format } = {}) {
+    this.style = {
+      color,
+      bgColor,
+      format
+    }
+  }
 
-function yellow(msg) {
-    return `${utils.colors.yellow}${msg}${utils.format.reset}`;
-};
-
-function bgWhite(msg) {
-    return `${utils.bgColors.white}${msg}${utils.format.reset}`;
+  text(text) {
+    let color = this.style.color || '';
+    let bgColor = this.style.bgColor || '';
+    let format = this.style.format || '';
+    return `${utils.bgColors[bgColor] || ''}${utils.colors[color] || ''}${utils.format[format] || ''}${text}${utils.format.reset}`;
+  }
 }
 
-module.exports = {
-    yellow,
-    cyan,
-    bgWhite
-}
+module.exports = Ctext;
