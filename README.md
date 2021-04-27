@@ -73,3 +73,7 @@ console.log(dr.text('Hello World'));
 Output
 
 ![Output](./assets/colord.PNG)
+
+## Contribution
+
+For contribution details please refer [this document](./CONTRIBUTING.md).
