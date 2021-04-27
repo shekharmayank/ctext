@@ -57,6 +57,19 @@ console.log(y.text('Hello World'));
 console.log(dr.text('Hello World'));
 ```
 
+## ctext Object input options
+
+| color: String | bgColor: String | format: String |
+|---------------|-----------------|----------------|
+| black         | black           | reset          |
+| red           | red             | bright         |
+| green         | green           | dim            |
+| yellow        | yellow          | underscore     |
+| blue          | blue            | blink          |
+| magenta       | magenta         | reverse        |
+| cyan          | cyan            | hidden         |
+| white         | white           |                |
+
 Output
 
 ![Output](./assets/colord.PNG)
