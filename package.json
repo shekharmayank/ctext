@@ -1,6 +1,6 @@
 {
   "name": "ctext",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny package to log colorful texts.",
   "main": "index.js",
   "repository": {
